@@ -1,3 +1,15 @@
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+  }
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
+
 # 1. The S3 Bucket Resource
 resource "aws_s3_bucket" "my_bucket" {
   bucket = var.bucket_name
