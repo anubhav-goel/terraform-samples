@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "buckets" {
-  count  = 1000
+  count  = 1
   bucket = "anubhav-goel-test-1778566461-${count.index + 1}"
 
   tags = {
