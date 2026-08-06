@@ -1,11 +1,9 @@
 policy "policy-one" {
-  source            = "./policy-one.rego"
-  enforcement_level = "hard-mandatory"
-  query             = "data.policy_one.main"
+  query             = "data.terraform.policy_one.deny"
+  enforcement_level = "advisory"
 }
 
 policy "policy-two" {
-  source            = "./policy-two.rego"
+  query             = "data.terraform.policy_two.deny"
   enforcement_level = "advisory"
-  query             = "data.policy_two.main"
 }
