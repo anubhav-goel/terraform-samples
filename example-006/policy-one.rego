@@ -1,8 +1,8 @@
 package terraform.policy_one
 
-# Always passes: deny is a partial rule that never fires (empty set of violations).
-# Do NOT add deny := set() (complete rule) — it would shadow partial deny rules.
-deny contains msg if {
+# Always passes: deny is an incremental rule whose body is always false.
+# Uses old-style deny[msg] syntax — compatible with all OPA versions (no imports needed).
+deny[msg] {
   false
   msg := "unreachable"
 }
