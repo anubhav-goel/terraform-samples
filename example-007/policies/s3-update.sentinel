@@ -1,0 +1,12 @@
+import "tfplan/v2" as tfplan
+
+s3_being_updated = filter tfplan.resource_changes as _, rc {
+    rc.type is "aws_s3_bucket" and
+    rc.change.actions contains "update"
+}
+
+main = rule {
+    all s3_being_updated as _, rc {
+        true
+    }
+}
