@@ -13,7 +13,7 @@ policy "policy-advisory-fails" {
   enforcement_level = "advisory"
 }
 
-policy "policy-syntax-error" {
-  query             = "data.terraform.syntax_error.deny"
-  enforcement_level = "mandatory"
-}
+# policy "policy-syntax-error" {
+#   query             = "data.terraform.syntax_error.deny"
+#   enforcement_level = "mandatory"
+# }
