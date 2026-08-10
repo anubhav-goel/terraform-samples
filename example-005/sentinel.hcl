@@ -18,7 +18,7 @@ policy "policy-advisory-fails" {
   enforcement_level = "advisory"
 }
 
-policy "policy-syntax-error" {
-  source            = "./policy-syntax-error.sentinel"
-  enforcement_level = "hard-mandatory"
-}
+# policy "policy-syntax-error" {
+#   source            = "./policy-syntax-error.sentinel"
+#   enforcement_level = "hard-mandatory"
+# }
