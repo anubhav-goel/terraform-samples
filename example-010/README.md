@@ -29,7 +29,7 @@ example-010/
     └── resources-10k/main.tf    (count = 10000)
 ```
 
-Each policy file starts with a `# policy-NNN` header so every file is distinct. Bucket names use the numeric count (`sentinel-perf-2500-<index>`), not the folder label, because dots are not valid in S3 bucket names.
+Each policy file starts with a `# policy-NNN` header so every file is distinct. Bucket names use the `prefix` variable and the numeric count (`sentinel-perf-<prefix>-2500-<index>`), not the folder label, because dots are not valid in S3 bucket names. The `prefix` variable is required and has no default, so each workspace needs its own value. Otherwise two workspaces that create the same names would conflict, since S3 bucket names are global.
 
 ## Regenerate
 
@@ -47,9 +47,10 @@ Repeat these steps for each cell in the matrix below.
 
 1. **Create the policy set.** In HCP Terraform, go to *Organization settings → Policy sets → Create policy set* and choose the Sentinel type. Connect it to this repository and set the policies path to `example-010/policy-sets/policies-<P>`. Scope it to the workspace you are testing.
 2. **Create the workspace.** Create a workspace connected to this repository. Set the Terraform working directory to `example-010/workspaces/resources-<L>`. Add AWS credentials as workspace variables. A plan still needs provider configuration, but nothing is created.
-3. **Start a plan.** Choose *Start new plan*. Do not confirm or apply. Open the run's policy check step. Expected result: all policies pass, because every bucket name starts with `sentinel-perf-`.
-4. **Record the timing.** Note the policy check duration in the matrix cell for this pair.
-5. **Discard the run.** Choose *Discard run*. Then detach the policy set (or move to a different workspace) so that only one policy set applies to a workspace at a time.
+3. **Set the Terraform variable `prefix` (unique per workspace).** Add a Terraform variable named `prefix` to the workspace, for example `ws-a` for one workspace and `ws-b` for another. Use only lowercase letters, digits, and hyphens, 1 to 20 characters, starting with a letter or digit. The variable has no default, so a plan fails until it is set. Two workspaces with the same value would try to create the same bucket names.
+4. **Start a plan.** Choose *Start new plan*. Do not confirm or apply. Open the run's policy check step. Expected result: all policies pass, because every bucket name starts with `sentinel-perf-`.
+5. **Record the timing.** Note the policy check duration in the matrix cell for this pair.
+6. **Discard the run.** Choose *Discard run*. Then detach the policy set (or move to a different workspace) so that only one policy set applies to a workspace at a time.
 
 ## Results matrix
 
