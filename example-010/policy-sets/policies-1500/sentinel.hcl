@@ -5593,3 +5593,1907 @@ policy "policy-1119" {
   enforcement_level = "hard-mandatory"
 }
 
+policy "policy-1120" {
+  source            = "./policy-1120.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1121" {
+  source            = "./policy-1121.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1122" {
+  source            = "./policy-1122.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1123" {
+  source            = "./policy-1123.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1124" {
+  source            = "./policy-1124.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1125" {
+  source            = "./policy-1125.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1126" {
+  source            = "./policy-1126.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1127" {
+  source            = "./policy-1127.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1128" {
+  source            = "./policy-1128.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1129" {
+  source            = "./policy-1129.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1130" {
+  source            = "./policy-1130.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1131" {
+  source            = "./policy-1131.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1132" {
+  source            = "./policy-1132.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1133" {
+  source            = "./policy-1133.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1134" {
+  source            = "./policy-1134.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1135" {
+  source            = "./policy-1135.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1136" {
+  source            = "./policy-1136.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1137" {
+  source            = "./policy-1137.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1138" {
+  source            = "./policy-1138.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1139" {
+  source            = "./policy-1139.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1140" {
+  source            = "./policy-1140.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1141" {
+  source            = "./policy-1141.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1142" {
+  source            = "./policy-1142.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1143" {
+  source            = "./policy-1143.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1144" {
+  source            = "./policy-1144.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1145" {
+  source            = "./policy-1145.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1146" {
+  source            = "./policy-1146.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1147" {
+  source            = "./policy-1147.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1148" {
+  source            = "./policy-1148.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1149" {
+  source            = "./policy-1149.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1150" {
+  source            = "./policy-1150.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1151" {
+  source            = "./policy-1151.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1152" {
+  source            = "./policy-1152.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1153" {
+  source            = "./policy-1153.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1154" {
+  source            = "./policy-1154.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1155" {
+  source            = "./policy-1155.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1156" {
+  source            = "./policy-1156.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1157" {
+  source            = "./policy-1157.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1158" {
+  source            = "./policy-1158.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1159" {
+  source            = "./policy-1159.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1160" {
+  source            = "./policy-1160.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1161" {
+  source            = "./policy-1161.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1162" {
+  source            = "./policy-1162.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1163" {
+  source            = "./policy-1163.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1164" {
+  source            = "./policy-1164.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1165" {
+  source            = "./policy-1165.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1166" {
+  source            = "./policy-1166.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1167" {
+  source            = "./policy-1167.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1168" {
+  source            = "./policy-1168.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1169" {
+  source            = "./policy-1169.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1170" {
+  source            = "./policy-1170.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1171" {
+  source            = "./policy-1171.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1172" {
+  source            = "./policy-1172.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1173" {
+  source            = "./policy-1173.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1174" {
+  source            = "./policy-1174.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1175" {
+  source            = "./policy-1175.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1176" {
+  source            = "./policy-1176.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1177" {
+  source            = "./policy-1177.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1178" {
+  source            = "./policy-1178.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1179" {
+  source            = "./policy-1179.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1180" {
+  source            = "./policy-1180.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1181" {
+  source            = "./policy-1181.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1182" {
+  source            = "./policy-1182.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1183" {
+  source            = "./policy-1183.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1184" {
+  source            = "./policy-1184.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1185" {
+  source            = "./policy-1185.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1186" {
+  source            = "./policy-1186.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1187" {
+  source            = "./policy-1187.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1188" {
+  source            = "./policy-1188.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1189" {
+  source            = "./policy-1189.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1190" {
+  source            = "./policy-1190.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1191" {
+  source            = "./policy-1191.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1192" {
+  source            = "./policy-1192.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1193" {
+  source            = "./policy-1193.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1194" {
+  source            = "./policy-1194.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1195" {
+  source            = "./policy-1195.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1196" {
+  source            = "./policy-1196.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1197" {
+  source            = "./policy-1197.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1198" {
+  source            = "./policy-1198.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1199" {
+  source            = "./policy-1199.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1200" {
+  source            = "./policy-1200.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1201" {
+  source            = "./policy-1201.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1202" {
+  source            = "./policy-1202.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1203" {
+  source            = "./policy-1203.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1204" {
+  source            = "./policy-1204.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1205" {
+  source            = "./policy-1205.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1206" {
+  source            = "./policy-1206.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1207" {
+  source            = "./policy-1207.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1208" {
+  source            = "./policy-1208.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1209" {
+  source            = "./policy-1209.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1210" {
+  source            = "./policy-1210.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1211" {
+  source            = "./policy-1211.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1212" {
+  source            = "./policy-1212.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1213" {
+  source            = "./policy-1213.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1214" {
+  source            = "./policy-1214.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1215" {
+  source            = "./policy-1215.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1216" {
+  source            = "./policy-1216.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1217" {
+  source            = "./policy-1217.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1218" {
+  source            = "./policy-1218.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1219" {
+  source            = "./policy-1219.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1220" {
+  source            = "./policy-1220.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1221" {
+  source            = "./policy-1221.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1222" {
+  source            = "./policy-1222.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1223" {
+  source            = "./policy-1223.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1224" {
+  source            = "./policy-1224.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1225" {
+  source            = "./policy-1225.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1226" {
+  source            = "./policy-1226.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1227" {
+  source            = "./policy-1227.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1228" {
+  source            = "./policy-1228.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1229" {
+  source            = "./policy-1229.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1230" {
+  source            = "./policy-1230.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1231" {
+  source            = "./policy-1231.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1232" {
+  source            = "./policy-1232.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1233" {
+  source            = "./policy-1233.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1234" {
+  source            = "./policy-1234.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1235" {
+  source            = "./policy-1235.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1236" {
+  source            = "./policy-1236.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1237" {
+  source            = "./policy-1237.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1238" {
+  source            = "./policy-1238.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1239" {
+  source            = "./policy-1239.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1240" {
+  source            = "./policy-1240.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1241" {
+  source            = "./policy-1241.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1242" {
+  source            = "./policy-1242.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1243" {
+  source            = "./policy-1243.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1244" {
+  source            = "./policy-1244.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1245" {
+  source            = "./policy-1245.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1246" {
+  source            = "./policy-1246.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1247" {
+  source            = "./policy-1247.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1248" {
+  source            = "./policy-1248.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1249" {
+  source            = "./policy-1249.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1250" {
+  source            = "./policy-1250.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1251" {
+  source            = "./policy-1251.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1252" {
+  source            = "./policy-1252.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1253" {
+  source            = "./policy-1253.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1254" {
+  source            = "./policy-1254.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1255" {
+  source            = "./policy-1255.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1256" {
+  source            = "./policy-1256.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1257" {
+  source            = "./policy-1257.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1258" {
+  source            = "./policy-1258.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1259" {
+  source            = "./policy-1259.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1260" {
+  source            = "./policy-1260.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1261" {
+  source            = "./policy-1261.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1262" {
+  source            = "./policy-1262.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1263" {
+  source            = "./policy-1263.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1264" {
+  source            = "./policy-1264.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1265" {
+  source            = "./policy-1265.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1266" {
+  source            = "./policy-1266.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1267" {
+  source            = "./policy-1267.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1268" {
+  source            = "./policy-1268.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1269" {
+  source            = "./policy-1269.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1270" {
+  source            = "./policy-1270.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1271" {
+  source            = "./policy-1271.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1272" {
+  source            = "./policy-1272.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1273" {
+  source            = "./policy-1273.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1274" {
+  source            = "./policy-1274.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1275" {
+  source            = "./policy-1275.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1276" {
+  source            = "./policy-1276.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1277" {
+  source            = "./policy-1277.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1278" {
+  source            = "./policy-1278.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1279" {
+  source            = "./policy-1279.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1280" {
+  source            = "./policy-1280.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1281" {
+  source            = "./policy-1281.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1282" {
+  source            = "./policy-1282.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1283" {
+  source            = "./policy-1283.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1284" {
+  source            = "./policy-1284.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1285" {
+  source            = "./policy-1285.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1286" {
+  source            = "./policy-1286.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1287" {
+  source            = "./policy-1287.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1288" {
+  source            = "./policy-1288.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1289" {
+  source            = "./policy-1289.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1290" {
+  source            = "./policy-1290.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1291" {
+  source            = "./policy-1291.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1292" {
+  source            = "./policy-1292.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1293" {
+  source            = "./policy-1293.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1294" {
+  source            = "./policy-1294.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1295" {
+  source            = "./policy-1295.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1296" {
+  source            = "./policy-1296.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1297" {
+  source            = "./policy-1297.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1298" {
+  source            = "./policy-1298.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1299" {
+  source            = "./policy-1299.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1300" {
+  source            = "./policy-1300.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1301" {
+  source            = "./policy-1301.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1302" {
+  source            = "./policy-1302.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1303" {
+  source            = "./policy-1303.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1304" {
+  source            = "./policy-1304.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1305" {
+  source            = "./policy-1305.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1306" {
+  source            = "./policy-1306.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1307" {
+  source            = "./policy-1307.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1308" {
+  source            = "./policy-1308.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1309" {
+  source            = "./policy-1309.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1310" {
+  source            = "./policy-1310.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1311" {
+  source            = "./policy-1311.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1312" {
+  source            = "./policy-1312.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1313" {
+  source            = "./policy-1313.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1314" {
+  source            = "./policy-1314.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1315" {
+  source            = "./policy-1315.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1316" {
+  source            = "./policy-1316.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1317" {
+  source            = "./policy-1317.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1318" {
+  source            = "./policy-1318.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1319" {
+  source            = "./policy-1319.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1320" {
+  source            = "./policy-1320.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1321" {
+  source            = "./policy-1321.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1322" {
+  source            = "./policy-1322.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1323" {
+  source            = "./policy-1323.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1324" {
+  source            = "./policy-1324.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1325" {
+  source            = "./policy-1325.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1326" {
+  source            = "./policy-1326.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1327" {
+  source            = "./policy-1327.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1328" {
+  source            = "./policy-1328.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1329" {
+  source            = "./policy-1329.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1330" {
+  source            = "./policy-1330.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1331" {
+  source            = "./policy-1331.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1332" {
+  source            = "./policy-1332.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1333" {
+  source            = "./policy-1333.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1334" {
+  source            = "./policy-1334.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1335" {
+  source            = "./policy-1335.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1336" {
+  source            = "./policy-1336.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1337" {
+  source            = "./policy-1337.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1338" {
+  source            = "./policy-1338.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1339" {
+  source            = "./policy-1339.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1340" {
+  source            = "./policy-1340.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1341" {
+  source            = "./policy-1341.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1342" {
+  source            = "./policy-1342.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1343" {
+  source            = "./policy-1343.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1344" {
+  source            = "./policy-1344.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1345" {
+  source            = "./policy-1345.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1346" {
+  source            = "./policy-1346.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1347" {
+  source            = "./policy-1347.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1348" {
+  source            = "./policy-1348.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1349" {
+  source            = "./policy-1349.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1350" {
+  source            = "./policy-1350.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1351" {
+  source            = "./policy-1351.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1352" {
+  source            = "./policy-1352.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1353" {
+  source            = "./policy-1353.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1354" {
+  source            = "./policy-1354.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1355" {
+  source            = "./policy-1355.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1356" {
+  source            = "./policy-1356.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1357" {
+  source            = "./policy-1357.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1358" {
+  source            = "./policy-1358.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1359" {
+  source            = "./policy-1359.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1360" {
+  source            = "./policy-1360.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1361" {
+  source            = "./policy-1361.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1362" {
+  source            = "./policy-1362.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1363" {
+  source            = "./policy-1363.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1364" {
+  source            = "./policy-1364.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1365" {
+  source            = "./policy-1365.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1366" {
+  source            = "./policy-1366.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1367" {
+  source            = "./policy-1367.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1368" {
+  source            = "./policy-1368.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1369" {
+  source            = "./policy-1369.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1370" {
+  source            = "./policy-1370.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1371" {
+  source            = "./policy-1371.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1372" {
+  source            = "./policy-1372.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1373" {
+  source            = "./policy-1373.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1374" {
+  source            = "./policy-1374.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1375" {
+  source            = "./policy-1375.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1376" {
+  source            = "./policy-1376.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1377" {
+  source            = "./policy-1377.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1378" {
+  source            = "./policy-1378.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1379" {
+  source            = "./policy-1379.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1380" {
+  source            = "./policy-1380.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1381" {
+  source            = "./policy-1381.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1382" {
+  source            = "./policy-1382.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1383" {
+  source            = "./policy-1383.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1384" {
+  source            = "./policy-1384.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1385" {
+  source            = "./policy-1385.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1386" {
+  source            = "./policy-1386.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1387" {
+  source            = "./policy-1387.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1388" {
+  source            = "./policy-1388.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1389" {
+  source            = "./policy-1389.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1390" {
+  source            = "./policy-1390.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1391" {
+  source            = "./policy-1391.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1392" {
+  source            = "./policy-1392.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1393" {
+  source            = "./policy-1393.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1394" {
+  source            = "./policy-1394.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1395" {
+  source            = "./policy-1395.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1396" {
+  source            = "./policy-1396.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1397" {
+  source            = "./policy-1397.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1398" {
+  source            = "./policy-1398.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1399" {
+  source            = "./policy-1399.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1400" {
+  source            = "./policy-1400.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1401" {
+  source            = "./policy-1401.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1402" {
+  source            = "./policy-1402.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1403" {
+  source            = "./policy-1403.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1404" {
+  source            = "./policy-1404.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1405" {
+  source            = "./policy-1405.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1406" {
+  source            = "./policy-1406.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1407" {
+  source            = "./policy-1407.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1408" {
+  source            = "./policy-1408.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1409" {
+  source            = "./policy-1409.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1410" {
+  source            = "./policy-1410.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1411" {
+  source            = "./policy-1411.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1412" {
+  source            = "./policy-1412.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1413" {
+  source            = "./policy-1413.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1414" {
+  source            = "./policy-1414.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1415" {
+  source            = "./policy-1415.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1416" {
+  source            = "./policy-1416.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1417" {
+  source            = "./policy-1417.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1418" {
+  source            = "./policy-1418.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1419" {
+  source            = "./policy-1419.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1420" {
+  source            = "./policy-1420.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1421" {
+  source            = "./policy-1421.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1422" {
+  source            = "./policy-1422.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1423" {
+  source            = "./policy-1423.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1424" {
+  source            = "./policy-1424.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1425" {
+  source            = "./policy-1425.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1426" {
+  source            = "./policy-1426.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1427" {
+  source            = "./policy-1427.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1428" {
+  source            = "./policy-1428.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1429" {
+  source            = "./policy-1429.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1430" {
+  source            = "./policy-1430.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1431" {
+  source            = "./policy-1431.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1432" {
+  source            = "./policy-1432.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1433" {
+  source            = "./policy-1433.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1434" {
+  source            = "./policy-1434.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1435" {
+  source            = "./policy-1435.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1436" {
+  source            = "./policy-1436.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1437" {
+  source            = "./policy-1437.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1438" {
+  source            = "./policy-1438.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1439" {
+  source            = "./policy-1439.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1440" {
+  source            = "./policy-1440.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1441" {
+  source            = "./policy-1441.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1442" {
+  source            = "./policy-1442.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1443" {
+  source            = "./policy-1443.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1444" {
+  source            = "./policy-1444.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1445" {
+  source            = "./policy-1445.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1446" {
+  source            = "./policy-1446.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1447" {
+  source            = "./policy-1447.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1448" {
+  source            = "./policy-1448.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1449" {
+  source            = "./policy-1449.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1450" {
+  source            = "./policy-1450.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1451" {
+  source            = "./policy-1451.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1452" {
+  source            = "./policy-1452.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1453" {
+  source            = "./policy-1453.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1454" {
+  source            = "./policy-1454.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1455" {
+  source            = "./policy-1455.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1456" {
+  source            = "./policy-1456.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1457" {
+  source            = "./policy-1457.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1458" {
+  source            = "./policy-1458.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1459" {
+  source            = "./policy-1459.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1460" {
+  source            = "./policy-1460.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1461" {
+  source            = "./policy-1461.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1462" {
+  source            = "./policy-1462.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1463" {
+  source            = "./policy-1463.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1464" {
+  source            = "./policy-1464.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1465" {
+  source            = "./policy-1465.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1466" {
+  source            = "./policy-1466.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1467" {
+  source            = "./policy-1467.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1468" {
+  source            = "./policy-1468.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1469" {
+  source            = "./policy-1469.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1470" {
+  source            = "./policy-1470.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1471" {
+  source            = "./policy-1471.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1472" {
+  source            = "./policy-1472.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1473" {
+  source            = "./policy-1473.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1474" {
+  source            = "./policy-1474.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1475" {
+  source            = "./policy-1475.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1476" {
+  source            = "./policy-1476.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1477" {
+  source            = "./policy-1477.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1478" {
+  source            = "./policy-1478.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1479" {
+  source            = "./policy-1479.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1480" {
+  source            = "./policy-1480.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1481" {
+  source            = "./policy-1481.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1482" {
+  source            = "./policy-1482.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1483" {
+  source            = "./policy-1483.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1484" {
+  source            = "./policy-1484.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1485" {
+  source            = "./policy-1485.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1486" {
+  source            = "./policy-1486.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1487" {
+  source            = "./policy-1487.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1488" {
+  source            = "./policy-1488.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1489" {
+  source            = "./policy-1489.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1490" {
+  source            = "./policy-1490.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1491" {
+  source            = "./policy-1491.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1492" {
+  source            = "./policy-1492.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1493" {
+  source            = "./policy-1493.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1494" {
+  source            = "./policy-1494.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1495" {
+  source            = "./policy-1495.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1496" {
+  source            = "./policy-1496.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1497" {
+  source            = "./policy-1497.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1498" {
+  source            = "./policy-1498.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1499" {
+  source            = "./policy-1499.sentinel"
+  enforcement_level = "hard-mandatory"
+}
+
+policy "policy-1500" {
+  source            = "./policy-1500.sentinel"
+  enforcement_level = "hard-mandatory"
+}
