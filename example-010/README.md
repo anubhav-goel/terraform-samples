@@ -2,7 +2,7 @@
 
 Measures how long a Sentinel policy check takes as the number of policies and the number of planned resources both grow.
 
-- **Policy sets:** 100, 200, 300, 400, and 500 policies. Each policy iterates every `aws_s3_bucket` create/update change in `tfplan/v2` and checks that the name starts with `sentinel-perf-`. Because every policy walks the full resource list, evaluation cost grows with both the policy count and the resource count.
+- **Policy sets:** 100, 200, 300, 400, 500, and 1500 policies. Each policy iterates every `aws_s3_bucket` create/update change in `tfplan/v2` and checks that the name starts with `sentinel-perf-`. Because every policy walks the full resource list, evaluation cost grows with both the policy count and the resource count.
 - **Workspaces:** 1k, 2.5k, 5k, 7.5k, and 10k `aws_s3_bucket` resources, each produced by a single `count`. The configs stay tiny while the plans get large.
 
 > **PLAN ONLY.** Never confirm or apply these workspaces. Creating 1k to 10k S3 buckets would hit account bucket quotas, requires globally unique names, and costs money. Every run should be discarded after the policy check finishes.
@@ -20,7 +20,8 @@ example-010/
 │   ├── policies-200/        (policy-001 ... policy-200)
 │   ├── policies-300/        (policy-001 ... policy-300)
 │   ├── policies-400/        (policy-001 ... policy-400)
-│   └── policies-500/        (policy-001 ... policy-500)
+│   ├── policies-500/        (policy-001 ... policy-500)
+│   └── policies-1500/       (policy-001 ... policy-1500)
 └── workspaces/
     ├── resources-1k/main.tf     (count = 1000)
     ├── resources-2.5k/main.tf   (count = 2500)
@@ -63,3 +64,4 @@ Rows are policy sets. Columns are workspaces. Fill in the policy check duration 
 | 300 policies | | | | | |
 | 400 policies | | | | | |
 | 500 policies | | | | | |
+| 1500 policies | | | | | |
