@@ -11,12 +11,13 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-POLICY_COUNTS=(100 200 300 400 500 1500)
+POLICY_COUNTS=(100 200 300 400 500 1100 1500)
 
 # "<label> <bucket count>" - label names the folder only; bucket names use the numeric count.
 WORKSPACES=(
   "1k 1000"
   "2.5k 2500"
+  "3.75k 3750"
   "5k 5000"
   "7.5k 7500"
   "10k 10000"
