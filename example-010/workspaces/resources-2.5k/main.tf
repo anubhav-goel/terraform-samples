@@ -1,9 +1,6 @@
 # Dummy resources only - safe to plan and apply (no cloud API calls).
 terraform {
   required_providers {
-    aws = {
-      source = "hashicorp/aws"
-    }
     null = {
       source  = "hashicorp/null"
       version = "~> 3.2"
@@ -17,10 +14,6 @@ terraform {
       version = "~> 0.12"
     }
   }
-}
-
-provider "aws" {
-  region = "us-east-1"
 }
 
 variable "prefix" {
@@ -59,5 +52,13 @@ resource "time_static" "stamp" {
   count = local.n - floor(local.n * 0.5) - floor(local.n * 0.3)
   triggers = {
     name = "${local.base}-time-${count.index}"
+  }
+}
+
+# Changes on every run so the plan is never empty and the policy check always runs.
+resource "null_resource" "run_marker" {
+  triggers = {
+    name = "sentinel-perf-${var.prefix}-run-marker"
+    at   = timestamp()
   }
 }

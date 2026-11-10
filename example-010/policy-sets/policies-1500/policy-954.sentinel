@@ -1,12 +1,20 @@
 # policy-954
 import "tfplan/v2" as tfplan
 
+value_of = func(rc) {
+	if rc.change.after is not null {
+		return rc.change.after
+	}
+	return rc.change.before
+}
+
 name_of = func(rc) {
+	v = value_of(rc)
 	case rc.type {
 		when "null_resource", "time_static":
-			return rc.change.after.triggers.name
+			return v.triggers.name
 		when "random_pet":
-			return rc.change.after.prefix
+			return v.prefix
 		else:
 			return ""
 	}
@@ -14,8 +22,7 @@ name_of = func(rc) {
 
 resources = filter tfplan.resource_changes as _, rc {
 	rc.mode is "managed" and
-	rc.type in ["null_resource", "random_pet", "time_static"] and
-	(rc.change.actions contains "create" or rc.change.actions contains "update")
+	rc.type in ["null_resource", "random_pet", "time_static"]
 }
 
 main = rule {

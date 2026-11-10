@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # Generates the Sentinel performance matrix for example-010.
 #
-#   policy-sets/policies-<P>/  P Sentinel policies, each iterating every
-#                              null/random/time resource in tfplan/v2 (cost scales with resources)
+#   policy-sets/policies-<P>/  P Sentinel policies, each checking every null/random/time
+#                              resource in tfplan/v2 on every run (cost scales with resources)
 #   workspaces/resources-<L>/  Terraform config creating N dummy resources via count
 #                              (50% null_resource, 30% random_pet, 20% time_static)
+#                              plus one run_marker null_resource that changes on every plan
 #
 # Idempotent: policy-sets/ and workspaces/ are deleted and recreated on every run.
 set -euo pipefail
@@ -28,12 +29,20 @@ policy_body() {
   cat <<'POLICY_BODY'
 import "tfplan/v2" as tfplan
 
+value_of = func(rc) {
+	if rc.change.after is not null {
+		return rc.change.after
+	}
+	return rc.change.before
+}
+
 name_of = func(rc) {
+	v = value_of(rc)
 	case rc.type {
 		when "null_resource", "time_static":
-			return rc.change.after.triggers.name
+			return v.triggers.name
 		when "random_pet":
-			return rc.change.after.prefix
+			return v.prefix
 		else:
 			return ""
 	}
@@ -41,8 +50,7 @@ name_of = func(rc) {
 
 resources = filter tfplan.resource_changes as _, rc {
 	rc.mode is "managed" and
-	rc.type in ["null_resource", "random_pet", "time_static"] and
-	(rc.change.actions contains "create" or rc.change.actions contains "update")
+	rc.type in ["null_resource", "random_pet", "time_static"]
 }
 
 main = rule {
@@ -140,6 +148,14 @@ resource "time_static" "stamp" {
   count = local.n - floor(local.n * 0.5) - floor(local.n * 0.3)
   triggers = {
     name = "\${local.base}-time-\${count.index}"
+  }
+}
+
+# Changes on every run so the plan is never empty and the policy check always runs.
+resource "null_resource" "run_marker" {
+  triggers = {
+    name = "sentinel-perf-\${var.prefix}-run-marker"
+    at   = timestamp()
   }
 }
 TF

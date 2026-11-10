@@ -54,3 +54,11 @@ resource "time_static" "stamp" {
     name = "${local.base}-time-${count.index}"
   }
 }
+
+# Changes on every run so the plan is never empty and the policy check always runs.
+resource "null_resource" "run_marker" {
+  triggers = {
+    name = "sentinel-perf-${var.prefix}-run-marker"
+    at   = timestamp()
+  }
+}
