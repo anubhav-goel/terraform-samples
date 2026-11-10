@@ -1,6 +1,9 @@
 # Dummy resources only - safe to plan and apply (no cloud API calls).
 terraform {
   required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
     null = {
       source  = "hashicorp/null"
       version = "~> 3.2"
@@ -14,6 +17,10 @@ terraform {
       version = "~> 0.12"
     }
   }
+}
+
+provider "aws" {
+  region = "us-east-1"
 }
 
 variable "prefix" {
