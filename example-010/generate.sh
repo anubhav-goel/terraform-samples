@@ -2,8 +2,9 @@
 # Generates the Sentinel performance matrix for example-010.
 #
 #   policy-sets/policies-<P>/  P Sentinel policies, each iterating every
-#                              aws_s3_bucket in tfplan/v2 (cost scales with resources)
-#   workspaces/resources-<L>/  Terraform config creating N aws_s3_bucket via count
+#                              null/random/time resource in tfplan/v2 (cost scales with resources)
+#   workspaces/resources-<L>/  Terraform config creating N dummy resources via count
+#                              (50% null_resource, 30% random_pet, 20% time_static)
 #
 # Idempotent: policy-sets/ and workspaces/ are deleted and recreated on every run.
 set -euo pipefail
@@ -13,7 +14,7 @@ cd "$SCRIPT_DIR"
 
 POLICY_COUNTS=(100 200 300 400 500 1100 1500)
 
-# "<label> <bucket count>" - label names the folder only; bucket names use the numeric count.
+# "<label> <resource count>" - label names the folder only; resource names use the numeric count.
 WORKSPACES=(
   "1k 1000"
   "2.5k 2500"
@@ -27,15 +28,26 @@ policy_body() {
   cat <<'POLICY_BODY'
 import "tfplan/v2" as tfplan
 
-buckets = filter tfplan.resource_changes as _, rc {
-	rc.type is "aws_s3_bucket" and
+name_of = func(rc) {
+	case rc.type {
+		when "null_resource", "time_static":
+			return rc.change.after.triggers.name
+		when "random_pet":
+			return rc.change.after.prefix
+		else:
+			return ""
+	}
+}
+
+resources = filter tfplan.resource_changes as _, rc {
 	rc.mode is "managed" and
+	rc.type in ["null_resource", "random_pet", "time_static"] and
 	(rc.change.actions contains "create" or rc.change.actions contains "update")
 }
 
 main = rule {
-	all buckets as _, rc {
-		rc.change.after.bucket matches "^sentinel-perf-"
+	all resources as _, rc {
+		name_of(rc) matches "^sentinel-perf-"
 	}
 }
 POLICY_BODY
@@ -70,21 +82,26 @@ HCL
 done
 
 for entry in "${WORKSPACES[@]}"; do
-  read -r label bucket_count <<<"$entry"
+  read -r label resource_count <<<"$entry"
   dir="workspaces/resources-${label}"
   mkdir -p "$dir"
   cat > "$dir/main.tf" <<TF
-# PLAN ONLY - never apply (S3 bucket quota, globally unique names, cost).
+# Dummy resources only - safe to plan and apply (no cloud API calls).
 terraform {
   required_providers {
-    aws = {
-      source = "hashicorp/aws"
+    null = {
+      source  = "hashicorp/null"
+      version = "~> 3.2"
+    }
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.6"
+    }
+    time = {
+      source  = "hashicorp/time"
+      version = "~> 0.12"
     }
   }
-}
-
-provider "aws" {
-  region = "us-east-1"
 }
 
 variable "prefix" {
@@ -97,9 +114,33 @@ variable "prefix" {
   }
 }
 
-resource "aws_s3_bucket" "perf" {
-  count  = ${bucket_count}
-  bucket = "sentinel-perf-\${var.prefix}-${bucket_count}-\${count.index}"
+locals {
+  n    = ${resource_count}
+  base = "sentinel-perf-\${var.prefix}-${resource_count}"
+}
+
+# 50%
+resource "null_resource" "job" {
+  count = floor(local.n * 0.5)
+  triggers = {
+    name  = "\${local.base}-job-\${count.index}"
+    env   = "perf"
+    owner = "sentinel-perf"
+  }
+}
+
+# 30%
+resource "random_pet" "pet" {
+  count  = floor(local.n * 0.3)
+  prefix = "\${local.base}-pet-\${count.index}"
+}
+
+# remainder (~20%)
+resource "time_static" "stamp" {
+  count = local.n - floor(local.n * 0.5) - floor(local.n * 0.3)
+  triggers = {
+    name = "\${local.base}-time-\${count.index}"
+  }
 }
 TF
 done

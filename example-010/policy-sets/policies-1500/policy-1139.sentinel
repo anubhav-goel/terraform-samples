@@ -1,14 +1,25 @@
 # policy-1139
 import "tfplan/v2" as tfplan
 
-buckets = filter tfplan.resource_changes as _, rc {
-	rc.type is "aws_s3_bucket" and
+name_of = func(rc) {
+	case rc.type {
+		when "null_resource", "time_static":
+			return rc.change.after.triggers.name
+		when "random_pet":
+			return rc.change.after.prefix
+		else:
+			return ""
+	}
+}
+
+resources = filter tfplan.resource_changes as _, rc {
 	rc.mode is "managed" and
+	rc.type in ["null_resource", "random_pet", "time_static"] and
 	(rc.change.actions contains "create" or rc.change.actions contains "update")
 }
 
 main = rule {
-	all buckets as _, rc {
-		rc.change.after.bucket matches "^sentinel-perf-"
+	all resources as _, rc {
+		name_of(rc) matches "^sentinel-perf-"
 	}
 }

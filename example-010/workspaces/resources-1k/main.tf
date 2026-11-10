@@ -1,14 +1,19 @@
-# PLAN ONLY - never apply (S3 bucket quota, globally unique names, cost).
+# Dummy resources only - safe to plan and apply (no cloud API calls).
 terraform {
   required_providers {
-    aws = {
-      source = "hashicorp/aws"
+    null = {
+      source  = "hashicorp/null"
+      version = "~> 3.2"
+    }
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.6"
+    }
+    time = {
+      source  = "hashicorp/time"
+      version = "~> 0.12"
     }
   }
-}
-
-provider "aws" {
-  region = "us-east-1"
 }
 
 variable "prefix" {
@@ -21,7 +26,31 @@ variable "prefix" {
   }
 }
 
-resource "aws_s3_bucket" "perf" {
-  count  = 1000
-  bucket = "sentinel-perf-${var.prefix}-1000-${count.index}"
+locals {
+  n    = 1000
+  base = "sentinel-perf-${var.prefix}-1000"
+}
+
+# 50%
+resource "null_resource" "job" {
+  count = floor(local.n * 0.5)
+  triggers = {
+    name  = "${local.base}-job-${count.index}"
+    env   = "perf"
+    owner = "sentinel-perf"
+  }
+}
+
+# 30%
+resource "random_pet" "pet" {
+  count  = floor(local.n * 0.3)
+  prefix = "${local.base}-pet-${count.index}"
+}
+
+# remainder (~20%)
+resource "time_static" "stamp" {
+  count = local.n - floor(local.n * 0.5) - floor(local.n * 0.3)
+  triggers = {
+    name = "${local.base}-time-${count.index}"
+  }
 }
